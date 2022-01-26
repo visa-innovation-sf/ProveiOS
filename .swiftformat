@@ -1,0 +1,24 @@
+# Mostly following Airbnb swift style guide: https://github.com/airbnb/swift
+
+# options
+--self remove # redundantSelf
+--importgrouping testable-bottom # sortedImports
+--commas inline # trailingCommas
+--trimwhitespace always # trailingSpace
+--ifdef no-indent #indent
+--wraparguments before-first # wrapArguments
+--wrapparameters before-first # wrapArguments
+--wrapcollections before-first # wrapArguments
+--funcattributes same-line # wrapAttributes
+--typeattributes same-line # wrapAttributes
+--swiftversion 5.0
+--maxwidth 100
+--indent 4
+--marktypes always
+--self init-only
+
+# disable rules
+--disable preferKeyPath,unusedArguments,strongOutlets
+
+# exclude folders
+--exclude Carthage,**/*+Generated.swift
